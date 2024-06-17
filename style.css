@@ -1,0 +1,44 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:rgb(62, 53, 47);
+}
+h1{
+    color: white;
+    background-image: url(image/ICON.jpg);
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size:80px ;
+    padding-left: 150px;
+}
+header li{
+    display:inline;
+    margin-right: 3vw;
+}
+header ul{
+    position: absolute;
+    right: 2vw;
+}
+header a{
+    color: white; 
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration:rgb(213, 73, 73) underline;
+}
+.banner{
+    background-color: rgb(237, 161, 182);
+    height: 60vh;
+    background-image:url("image/banner.jpg") ;
+    background-size:cover ;
+    overflow: hidden;
+    position: relative; 
+}
+.news{
+    background-color: rgb(237, 161, 182);
+    padding: 10px ;
+    margin: 10px;
+}
